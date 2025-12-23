@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.215.165.15
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766476200325
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766476570784
+  login: 1766473325937
+money: '0'
+last-account-name: Sebi_cum
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 2.119593993420518
+  y: 119.0
+  z: 66.28681757987711
+  yaw: -47.550048828125
+  pitch: 23.549999237060547
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 80.23875540995442
+  y: 72.0
+  z: 94.55088789079781
+  yaw: 134.06231689453125
+  pitch: -42.47146987915039
+nickname: JuanSebi

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.140.29.206
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766469875897
+  login: 1766468683189
+money: '0'
+last-account-name: Ako_lol
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: -120.94917679110333
+  y: 226.8507939634882
+  z: -159.5677231481789
+  yaw: -37.874755859375
+  pitch: 88.19998931884766

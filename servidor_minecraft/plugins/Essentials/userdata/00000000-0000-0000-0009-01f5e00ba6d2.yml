@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.215.165.15
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766086880258
+  login: 1766086846205
+money: '0'
+last-account-name: .AaronSebas8650
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: -2.9721375
+  y: 119.0
+  z: 46.889874
+  yaw: 102.0054931640625
+  pitch: 28.3775634765625

@@ -1,0 +1,837 @@
+[06:21:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[06:21:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) for Minecraft 1.21.10
+[06:21:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:21:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.17.jar'...
+[06:21:30] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.15-beta-01.jar'...
+[06:21:32] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.15-beta-01.jar' in 1939ms.
+[06:21:33] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.17.jar' in 3200ms.
+[06:21:34] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[06:21:34] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+ - BedrockPlayerManager (1.4), ClearLag (1.6.17), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsGeoIP (2.21.2), EssentialsProtect (2.21.2), EssentialsSpawn (2.21.2), GSit (3.1.0), Geyser-Spigot (2.9.2-SNAPSHOT), LPC (3.6.9), LuckPerms (5.5.21), PlaceholderAPI (2.11.7), SinglePlayerSleep (1.1.0), SkinsRestorer (15.9.1), TAB (5.4.0), Vault (1.7.3-b131), ViaVersion (5.6.0), WorldEdit (7.3.17+7262-c7fbe08), WorldGuard (7.0.15-beta-01+445a1d7), coloredsigns (1.0), floodgate (2.2.5-SNAPSHOT (b123-65eecbf))
+[06:21:38] [ServerMain/WARN]: resource-pack-id missing, using default of 737ca808-79e2-35ba-b4d4-548b3d191c38
+[06:21:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:21:40] [ServerMain/INFO]: Loaded 1461 recipes
+[06:21:40] [ServerMain/INFO]: Loaded 1574 advancements
+[06:21:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:21:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,071.0ms
+[06:21:41] [ServerMain/WARN]: resource-pack-id missing, using default of 737ca808-79e2-35ba-b4d4-548b3d191c38
+[06:21:41] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[06:21:41] [Server thread/INFO]: Loading properties
+[06:21:41] [Server thread/INFO]: This server is running Paper version 1.21.10-117-ver/1.21.10@df4b668 (2025-11-30T22:37:28Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[06:21:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:21:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:21:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:21:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:21:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:21:43] [Server thread/INFO]: Generating keypair
+[06:21:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:21:43] [Server thread/INFO]: Using epoll channel type
+[06:21:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:21:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:21:44] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 1 libraries... please wait
+[06:21:44] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/urban-bassoon-uwu/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[06:21:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.6.0
+[06:21:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.6.0 is now loaded. Registering protocol transformers and injecting...
+[06:21:44] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:21:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:21:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.21
+[06:21:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:21:45] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[06:21:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[06:21:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4cf1a45a]
+[06:21:46] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[06:21:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b123-65eecbf)
+[06:21:47] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[06:21:47] [Server thread/INFO]: [floodgate] Took 724ms to boot Floodgate
+[06:21:47] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[06:21:47] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15-beta-01+445a1d7
+[06:21:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[06:21:47] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.1.0
+[06:21:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
+[06:21:47] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.1.0
+[06:21:47] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.21.2
+[06:21:47] [Server thread/INFO]: [BedrockPlayerManager] Loading server plugin BedrockPlayerManager v1.4
+[06:21:47] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.9
+[06:21:47] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[06:21:47] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.21.2
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[06:21:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[06:21:47] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.6.17
+[06:21:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[06:21:47] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[06:21:47] [Server thread/INFO]: [coloredsigns] Loading server plugin coloredsigns v1.0
+[06:21:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:21:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.21
+[06:21:48] [Server thread/INFO]:         __    
+[06:21:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.21
+[06:21:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:21:48] [Server thread/INFO]: 
+[06:21:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:21:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:21:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:21:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1345ms)
+[06:21:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:21:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:21:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:21:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:21:49] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[06:21:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[06:21:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:21:49] [Server thread/INFO]: WEPIF: Updated config file
+[06:21:49] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[06:21:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[06:21:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
+[06:21:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.10.
+[06:21:51] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[06:21:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[06:21:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.1]
+[06:21:52] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[06:21:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:21:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:21:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:21:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:21:52] [Server thread/INFO]: Preparing level "world"
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.1
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ee713cb
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[06:21:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[06:21:53] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:21:53] [Server thread/INFO]: Preparing spawn area: 100%
+[06:21:53] [Server thread/INFO]: Prepared spawn area in 2 ms
+[06:21:53] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:21:53] [Server thread/INFO]: Prepared spawn area in 0 ms
+[06:21:53] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:21:53] [Server thread/INFO]: Prepared spawn area in 0 ms
+[06:21:53] [Server thread/INFO]: Done preparing level "world" (1.286s)
+[06:21:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.6.0
+[06:21:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.9-1.21.10 (773)
+[06:21:53] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b123-65eecbf)
+[06:21:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[06:21:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:21:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15-beta-01+445a1d7
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[06:21:54] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loading region data...
+[06:21:54] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[06:21:54] [Server thread/INFO]: [WorldGuard] Loading region data...
+[06:21:54] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[06:21:54] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[06:21:54] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[06:21:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:21:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[06:21:55] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[06:21:55] [Server thread/INFO]: [Essentials] Using locale en
+[06:21:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:21:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:21:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[06:21:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[06:21:55] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.1.0
+[06:21:55] [Server thread/INFO]: [SinglePlayerSleep] SinglePlayerSleep v1.1.0 has been enabled!
+[06:21:55] [Server thread/INFO]: [GSit] Enabling GSit v3.1.0
+[06:21:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.1.0]
+[06:21:55] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[06:21:55] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[06:21:55] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[06:21:55] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[06:21:55] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.21.2
+[06:21:55] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[06:21:55] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[06:21:55] [Server thread/INFO]: [BedrockPlayerManager] Enabling BedrockPlayerManager v1.4
+[06:21:55] [Server thread/INFO]: [LPC] Enabling LPC v3.6.9
+[06:21:55] [Server thread/INFO]: [LPC] Paper API has been detected and will be used.
+[06:21:55] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[06:21:55] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[06:21:55] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.21.2
+[06:21:55] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
+[06:21:55] [Server thread/ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
+java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356) ~[?:?]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273) ~[?:?]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.libs.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.libs.maxmind.db.Reader.<init>(Reader.java:116) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:176) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:52) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at EssentialsXGeoIP-2.21.2.jar/com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:34) ~[EssentialsXGeoIP-2.21.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.10-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:637) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:368) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1257) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-117-df4b668]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[06:21:55] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[06:21:55] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[06:21:55] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[06:21:56] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.6.17
+[06:21:56] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
+[06:21:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlag [1.6.17]
+[06:21:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[06:21:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[06:21:56] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "_NEZNAMY_" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "237d8b55-3f97-4749-aa60-e9fe97b45062" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "JuanSebi" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "Angel" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "Chetto" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[06:21:57] [Server thread/INFO]: [TAB] [WARN] Found a total of 6 issues.
+[06:21:57] [Server thread/INFO]: [TAB] Enabled in 235ms
+[06:21:57] [Server thread/INFO]: [coloredsigns] Enabling coloredsigns v1.0
+[06:21:57] [Server thread/INFO]: [coloredsigns] ColoredSigns enabled!
+[06:21:57] [Server thread/INFO]: [spark] Starting background profiler...
+[06:21:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:21:57] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:21:57] [Server thread/INFO]: [Geyser-Spigot] 
+[06:21:57] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1009 (git-master-5d46e76)
+[06:21:57] [Server thread/INFO]: [Geyser-Spigot] 
+[06:21:57] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:22:00] [Server thread/WARN]: [Geyser-Spigot] The resource pack plugins/Geyser-Spigot/packs/Modern Mizuno's v0.4.2.zip is invalid and failed to load!
+[06:22:00] [Server thread/WARN]: java.lang.IllegalArgumentException: The resource pack Modern Mizuno's v0.4.2.zip is invalid and failed to load!
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readManifest(ResourcePackLoader.java:223)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readPack(ResourcePackLoader.java:161)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.load(ResourcePackLoader.java:131)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.load(ResourcePackLoader.java:75)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.DeferredRegistry.lambda$new$2(DeferredRegistry.java:64)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.DeferredRegistry.load(DeferredRegistry.java:115)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.AbstractMappedDeferredRegistry.load(AbstractMappedDeferredRegistry.java:36)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.startInstance(GeyserImpl.java:319)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.initialize(GeyserImpl.java:281)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.start(GeyserImpl.java:897)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:235)
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:219)
+[06:22:00] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[06:22:00] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[06:22:00] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[06:22:00] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[06:22:00] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[06:22:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:645)
+[06:22:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:368)
+[06:22:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1257)
+[06:22:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
+[06:22:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[06:22:00] [Server thread/WARN]: Caused by: java.lang.IllegalArgumentException: Modern Mizuno's v0.4.2.zip does not contain a valid pack_manifest.json or manifest.json
+[06:22:00] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readManifest(ResourcePackLoader.java:218)
+[06:22:00] [Server thread/WARN]: 	... 21 more
+[06:22:00] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 12901
+[06:22:00] [Server thread/INFO]: [Geyser-Spigot] Done (3.18s)! Run /geyser help for help!
+[06:22:01] [Server thread/INFO]: Running delayed init tasks
+[06:22:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[06:22:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:22:01] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[06:22:01] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[06:22:01] [Server thread/INFO]: Done (31.672s)! For help, type "help"
+[06:22:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[06:22:01] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[06:22:01] [Craft Scheduler Thread - 0 - SinglePlayerSleep/INFO]: [SinglePlayerSleep] Plugin is up to date! (v1.1.0)
+[06:22:01] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[06:22:01] [Craft Scheduler Thread - 4 - ClearLag/INFO]: [ClearLag] You are running the latest version (1.6.17).
+[06:25:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping 
+[06:25:46] [Server thread/INFO]: Pong!
+[06:25:53] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping 
+[06:25:53] [Server thread/INFO]: Pong!
+[06:26:05] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Chettoxs (898)
+[06:26:05] [localSession-7-2/INFO]: [Geyser-Spigot] Chettoxs (logged in as: Chettoxs) has connected to the Java server
+[06:26:05] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials, WorldGuard]
+[06:26:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Chettoxs joined (UUID: 00000000-0000-0000-0009-01f2bc8cc07f)
+[06:26:07] [Server thread/INFO]: .Chettoxs joined the game
+[06:26:07] [Server thread/INFO]: .Chettoxs[/127.57.59.190:0] logged in with entity id 1 at ([world]0.34783575, 119.0, 39.976715)
+[06:27:09] [User Authenticator #0/INFO]: UUID of player Sebi_cum is bffe29b4-b281-3a4d-9f36-9ab8a4e96dcd
+[06:27:23] [Server thread/INFO]: Sebi_cum joined the game
+[06:27:23] [Server thread/INFO]: Sebi_cum[/127.215.165.15:54827] logged in with entity id 540 at ([world]1.2271159899836583, 119.0, 24.123654128370404)
+[06:27:23] [Craft Scheduler Thread - 14 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Sebi_cum. Please ensure that your license key and configuration are correct.
+[06:28:49] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username AALPHiZ99 (898)
+[06:28:49] [localSession-7-3/INFO]: [Geyser-Spigot] AALPHiZ99 (logged in as: AALPHiZ99) has connected to the Java server
+[06:28:50] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AALPHiZ99 joined (UUID: 00000000-0000-0000-0009-01f55a7f62fa)
+[06:28:50] [Server thread/INFO]: .AALPHiZ99 joined the game
+[06:28:50] [Server thread/INFO]: .AALPHiZ99[/127.167.61.167:0] logged in with entity id 864 at ([world]16.87597, 112.0, 29.192434)
+[06:28:50] [Craft Scheduler Thread - 17 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .AALPHiZ99. Please ensure that your license key and configuration are correct.
+[06:29:20] [Async Chat Thread - #0/INFO]: [Not Secure] .AALPHiZ99 » : ptm q le hicieron ala casa
+[06:30:13] [Async Chat Thread - #0/INFO]: [Not Secure] .AALPHiZ99 » : el caltel
+[06:30:27] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Y la mentira?
+[06:30:59] [Server thread/WARN]: Player Sebi_cum just tried to change non-editable sign
+[06:31:18] [Server thread/INFO]: .AALPHiZ99 was doomed to fall by Sebi_cum
+[06:31:24] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Yo no fui
+[06:31:29] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Mentiras
+[06:31:41] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : A poco muy feliz nevede
+[06:32:00] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Tu armadura
+[06:32:03] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ho ho ho
+[06:32:12] [Async Chat Thread - #0/INFO]: [Not Secure] .AALPHiZ99 » : alguin me da un cubo de agua
+[06:32:23] [Async Chat Thread - #0/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : No tengo
+[06:32:24] [Async Chat Thread - #0/INFO]: [Not Secure] .AALPHiZ99 » : ok
+[06:33:18] [Async Chat Thread - #0/INFO]: [Not Secure] .AALPHiZ99 » : yo no lo agare
+[06:33:46] [Server thread/INFO]: .AALPHiZ99 was doomed to fall by Sebi_cum
+[06:34:53] [Async Chat Thread - #2/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Allá hay agua
+[06:36:27] [Async Chat Thread - #3/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ya lo arreglo}
+[06:36:45] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Alsito2476 (898)
+[06:36:45] [localSession-7-4/INFO]: [Geyser-Spigot] Alsito2476 (logged in as: Alsito2476) has connected to the Java server
+[06:36:45] [User Authenticator #1/INFO]: UUID of player Alsito2476 is 0ff81ef0-9d75-3508-a788-fac2cb041dac
+[06:36:45] [Server thread/INFO]: Alsito2476 joined the game
+[06:36:45] [Server thread/INFO]: Alsito2476[/127.28.204.109:0] logged in with entity id 3086 at ([world]-8.300629, 52.0, 15.69999)
+[06:36:45] [Craft Scheduler Thread - 20 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Alsito2476. Please ensure that your license key and configuration are correct.
+[06:36:58] [Async Chat Thread - #3/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Mi amor vuelve a entrar porque entraste sin puntito
+[06:37:18] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Alsito2476 has disconnected from the Java server because of Bedrock client disconnected
+[06:37:18] [Server thread/INFO]: Alsito2476 lost connection: Disconnected
+[06:37:18] [Server thread/INFO]: Alsito2476 left the game
+[06:37:49] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username Alsito2476 (898)
+[06:37:49] [localSession-7-1/INFO]: [Geyser-Spigot] Alsito2476 (logged in as: Alsito2476) has connected to the Java server
+[06:37:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Alsito2476 joined (UUID: 00000000-0000-0000-0009-01fc8438d36b)
+[06:37:49] [Server thread/INFO]: .Alsito2476 joined the game
+[06:37:49] [Server thread/INFO]: .Alsito2476[/127.28.204.109:0] logged in with entity id 3284 at ([world]3.508675, 119.0, 25.337412)
+[06:38:08] [Async Chat Thread - #5/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Era porque el juego te conecto sin el puntito
+[06:38:26] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Margareth5764 (898)
+[06:38:26] [localSession-7-2/INFO]: [Geyser-Spigot] Margareth5764 (logged in as: Margareth5764) has connected to the Java server
+[06:38:27] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 joined (UUID: 00000000-0000-0000-0009-01f5a7dc2f91)
+[06:38:27] [Server thread/INFO]: .Margareth5764 joined the game
+[06:38:27] [Server thread/INFO]: .Margareth5764[/127.106.6.238:0] logged in with entity id 3424 at ([world]-65.53232, 161.17319998688697, -235.22243)
+[06:38:27] [Craft Scheduler Thread - 28 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .Margareth5764. Please ensure that your license key and configuration are correct.
+[06:38:42] [Server thread/WARN]: .Margareth5764 was kicked for floating too long!
+[06:38:42] [Server thread/INFO]: .Margareth5764 lost connection: Flying is not enabled on this server
+[06:38:42] [localSession-7-2/INFO]: [Geyser-Spigot] Margareth5764 has disconnected from the Java server because of Flying is not enabled on this server
+[06:38:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 disconnected
+[06:38:42] [Server thread/INFO]: .Margareth5764 left the game
+[06:38:53] [Server thread/INFO]: .Chettoxs issued server command: /weather clear
+[06:39:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp se .al
+[06:39:40] [Async Chat Thread - #7/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Lo hiciste tu?
+[06:40:32] [Async Chat Thread - #7/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Kaeya:
+[06:40:54] [Async Chat Thread - #7/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pq tanta mierda
+[06:41:50] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Margareth5764 (898)
+[06:41:50] [localSession-7-3/INFO]: [Geyser-Spigot] Margareth5764 (logged in as: Margareth5764) has connected to the Java server
+[06:41:50] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 joined (UUID: 00000000-0000-0000-0009-01f5a7dc2f91)
+[06:41:50] [Server thread/INFO]: .Margareth5764 joined the game
+[06:41:50] [Server thread/INFO]: .Margareth5764[/127.106.6.238:0] logged in with entity id 4589 at ([world]-65.53232, 160.79656950176135, -235.22243)
+[06:41:50] [Craft Scheduler Thread - 32 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .Margareth5764. Please ensure that your license key and configuration are correct.
+[06:41:57] [Server thread/INFO]: .AALPHiZ99 drowned
+[06:42:04] [Server thread/WARN]: .Margareth5764 was kicked for floating too long!
+[06:42:04] [Server thread/INFO]: .Margareth5764 lost connection: Flying is not enabled on this server
+[06:42:04] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 disconnected
+[06:42:04] [localSession-7-3/INFO]: [Geyser-Spigot] Margareth5764 has disconnected from the Java server because of Flying is not enabled on this server
+[06:42:04] [Server thread/INFO]: .Margareth5764 left the game
+[06:43:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping 
+[06:43:20] [Server thread/INFO]: Pong!
+[06:43:48] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : Diaabloooo
+[06:44:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping 
+[06:44:00] [Server thread/INFO]: Pong!
+[06:44:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp se .al
+[06:44:09] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Margareth5764 (898)
+[06:44:09] [localSession-7-4/INFO]: [Geyser-Spigot] Margareth5764 (logged in as: Margareth5764) has connected to the Java server
+[06:44:09] [User Authenticator #2/INFO]: UUID of player Margareth5764 is 77ae4f75-c2bf-3783-bb3f-68943cccef85
+[06:44:09] [Server thread/INFO]: Margareth5764 joined the game
+[06:44:09] [Server thread/INFO]: Margareth5764[/127.106.6.238:0] logged in with entity id 5351 at ([world]8.5, 119.0, 45.5)
+[06:44:09] [Craft Scheduler Thread - 36 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Margareth5764. Please ensure that your license key and configuration are correct.
+[06:44:09] [Server thread/INFO]: Margareth5764 has made the advancement [Getting an Upgrade]
+[06:44:16] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Toma mi amor
+[06:44:20] [Async Chat Thread - #10/INFO]: [Not Secure] .AALPHiZ99 » : jjajajja esta good este cuarto
+[06:44:33] [Async Chat Thread - #10/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Lo hice yo con mucho amor
+[06:45:13] [Async Chat Thread - #11/INFO]: [Not Secure] Margareth5764 » : pero
+[06:45:17] [Async Chat Thread - #9/INFO]: [Not Secure] Margareth5764 » : kqjajaja
+[06:45:18] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : bueno la verda no se si me quiero ir de esta bas3 ta bien divertida
+[06:45:40] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : La foto de Hector y Tomas
+[06:45:47] [Async Chat Thread - #9/INFO]: [Not Secure] Margareth5764 » : pregunta es normal que no tenga mis cositas?
+[06:45:51] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD.
+[06:45:59] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Sal y vuelve a entrar Marcita
+[06:46:03] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : A veces se buguea
+[06:46:12] [Async Chat Thread - #9/INFO]: [Not Secure] Margareth5764 » : vale vale
+[06:46:17] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Margareth5764 has disconnected from the Java server because of Bedrock client disconnected
+[06:46:17] [Server thread/INFO]: Margareth5764 lost connection: Disconnected
+[06:46:17] [Server thread/INFO]: Margareth5764 left the game
+[06:46:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp .al se
+[06:46:27] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : Mar cuando termines me ayudas a construir mi casita
+[06:46:37] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Esa vaina es como rar
+[06:46:49] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ya vuelve a entrar
+[06:46:52] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : ptm
+[06:47:01] [Server thread/INFO]: .Chettoxs slept. Everyone, good night!
+[06:47:04] [Server thread/INFO]: Good morning everyone!
+[06:47:05] [Server thread/INFO]: [Server: Saving the game...]
+[06:47:05] [Server thread/INFO]: Saving the game (this may take a moment!)
+[06:47:05] [Server thread/INFO]: Saved the game
+[06:47:06] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username Margareth5764 (898)
+[06:47:06] [localSession-7-1/INFO]: [Geyser-Spigot] Margareth5764 (logged in as: Margareth5764) has connected to the Java server
+[06:47:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 joined (UUID: 00000000-0000-0000-0009-01f5a7dc2f91)
+[06:47:07] [Server thread/INFO]: .Margareth5764 joined the game
+[06:47:07] [Server thread/INFO]: .Margareth5764[/127.106.6.238:0] logged in with entity id 6210 at ([world]-65.53232, 160.0, -235.22243)
+[06:47:07] [Craft Scheduler Thread - 40 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .Margareth5764. Please ensure that your license key and configuration are correct.
+[06:47:14] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : es q mi casa no la termino hoy
+[06:47:22] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : A mi me gusto los carteles
+[06:47:55] [Server thread/INFO]: .AALPHiZ99 was slain by Sebi_cum
+[06:48:10] [Server thread/INFO]: .Chettoxs issued server command: /warp granja1
+[06:48:16] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ponganle agua al gasth feliz
+[06:48:34] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Con muchisimas bolas de nieve
+[06:48:43] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pero deben ponerlo en un bloque de agua
+[06:48:51] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Denme agua
+[06:49:00] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : perdon lo mal pense al oir bolas
+[06:49:04] [Async Chat Thread - #9/INFO]: [Not Secure] .Margareth5764 » : dale alphiz, pero porque quieres hacer una casita aparte?
+[06:49:05] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Yo tengo nieve
+[06:49:11] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Bolas de nieve
+[06:49:18] [Async Chat Thread - #9/INFO]: [Not Secure] .Margareth5764 » : ohh uy estara complicada la nieve
+[06:49:37] [Server thread/INFO]: .Alsito2476 issued server command: /tp .ch
+[06:49:44] [Async Chat Thread - #9/INFO]: [Not Secure] .AALPHiZ99 » : no era la nueva base pero ya le agararon cariño a esta
+[06:49:59] [Async Chat Thread - #9/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : El que me toque mi cuarto lo borro de la existencia
+[06:50:21] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Voy a su casa y los lanzo por el salto del tequendama
+[06:50:34] [Async Chat Thread - #11/INFO]: [Not Secure] .AALPHiZ99 » : exacto por eso lo voy a volver la base mi casa
+[06:50:42] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Okie
+[06:51:11] [Server thread/INFO]: .Chettoxs issued server command: /home
+[06:51:13] [Server thread/INFO]: Sebi_cum has made the advancement [Stay Hydrated!]
+[06:51:17] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Bruh
+[06:51:19] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : nuvs
+[06:51:29] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Deben poner el agua
+[06:51:30] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : EN
+[06:51:33] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : El gasth
+[06:51:35] [Async Chat Thread - #11/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : ugu
+[06:51:53] [Server thread/INFO]: .AALPHiZ99 was slain by Sebi_cum
+[06:52:21] [Server thread/INFO]: .AALPHiZ99 was slain by .Chettoxs
+[06:52:35] [Server thread/INFO]: .Margareth5764 issued server command: /home
+[06:52:35] [Server thread/INFO]: [Essentials] .Margareth5764 was denied access to command.
+[06:52:45] [Server thread/INFO]: Sebi_cum fell from a high place
+[06:52:51] [Server thread/INFO]: .Alsito2476 issued server command: /setwarp granja2
+[06:52:58] [Server thread/INFO]: .Alsito2476 issued server command: /tp .c
+[06:53:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /warp granja2 sebi
+[06:53:38] [Async Chat Thread - #12/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : que
+[06:53:40] [Async Chat Thread - #12/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : dnd estoy
+[06:53:57] [Server thread/WARN]: .Chettoxs moved wrongly!
+[06:54:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp se .al
+[06:54:25] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Chetto esta levitando
+[06:54:29] [Async Chat Thread - #12/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : JAJJAAJAJ
+[06:54:38] [Async Chat Thread - #12/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : JAJAJJAJJAAJAJ
+[06:54:44] [Async Chat Thread - #12/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Teamo
+[06:54:47] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : muack
+[06:55:07] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[06:55:14] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Es juguito de amor
+[06:55:24] [Server thread/INFO]: Sebi_cum fell from a high place
+[06:55:57] [Server thread/INFO]: Sebi_cum issued server command: //brush
+[06:56:06] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Chetto
+[06:56:09] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Mira esto
+[06:56:20] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Yo?
+[06:56:22] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ah
+[06:56:24] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Por el palito
+[06:56:33] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pegame
+[06:56:33] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Chettoxs disconnected
+[06:56:33] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Chettoxs has disconnected from the Java server because of Bedrock client disconnected
+[06:56:33] [Server thread/INFO]: .Chettoxs lost connection: Disconnected
+[06:56:33] [Server thread/INFO]: .Chettoxs left the game
+[06:57:04] [Server thread/INFO]: Made Sebi_cum a server operator
+[06:57:05] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Chettoxs (898)
+[06:57:05] [localSession-7-2/INFO]: [Geyser-Spigot] Chettoxs (logged in as: Chettoxs) has connected to the Java server
+[06:57:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Chettoxs joined (UUID: 00000000-0000-0000-0009-01f2bc8cc07f)
+[06:57:05] [Server thread/INFO]: .Chettoxs joined the game
+[06:57:05] [Server thread/INFO]: .Chettoxs[/127.57.59.190:0] logged in with entity id 12899 at ([world]19.303225, 120.5625, 37.66757)
+[06:57:10] [Server thread/INFO]: Sebi_cum issued server command: /invsee .Alsito2476
+[06:57:16] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Encontre mi palito
+[06:57:20] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Lo deje en un cofre
+[06:57:28] [Server thread/INFO]: Sebi_cum issued server command: /fly .Chettoxs
+[06:57:29] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ya
+[06:57:34] [Server thread/INFO]: .Chettoxs issued server command: /flyoff
+[06:57:58] [Server thread/INFO]: .Chettoxs issued server command: /Fly Take off
+[06:58:02] [Server thread/INFO]: Sebi_cum fell from a high place
+[06:58:16] [Server thread/INFO]: Sebi_cum issued server command: /tp .al
+[06:58:21] [Server thread/INFO]: Sebi_cum issued server command: /tp .AALPHiZ99
+[06:58:28] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pegame
+[06:58:37] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[06:58:50] [Async Chat Thread - #13/INFO]: [Not Secure] .AALPHiZ99 » : oye Aaron se ve cimitrico
+[06:59:06] [Server thread/INFO]: .Alsito2476 slept. Everyone, good night!
+[06:59:09] [Server thread/INFO]: Good morning everyone!
+[06:59:10] [Server thread/INFO]: [Server: Saving the game...]
+[06:59:10] [Server thread/INFO]: Saving the game (this may take a moment!)
+[06:59:10] [Server thread/INFO]: Saved the game
+[06:59:14] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[06:59:20] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pegame
+[06:59:26] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ves
+[06:59:29] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[06:59:30] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Es el palo
+[06:59:47] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:00:02] [Server thread/INFO]: Sebi_cum burned to death
+[07:00:12] [Server thread/INFO]: Sebi_cum issued server command: //wand
+[07:00:19] [Server thread/INFO]: Sebi_cum issued server command: //wand
+[07:00:29] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Mira
+[07:00:40] [Server thread/WARN]: Sebi_cum was kicked for floating too long!
+[07:00:40] [Server thread/INFO]: Sebi_cum lost connection: Flying is not enabled on this server
+[07:00:40] [Server thread/INFO]: Sebi_cum left the game
+[07:01:01] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:01:19] [Server thread/INFO]: [Not Secure] [Server] Me saco del servidor lol
+[07:01:54] [Async Chat Thread - #13/INFO]: [Not Secure] CO-OWNER | 🦝 Chetto 🦝 .Chettoxs : %sit
+[07:01:57] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[07:01:58] [User Authenticator #3/INFO]: UUID of player Sebi_cum is bffe29b4-b281-3a4d-9f36-9ab8a4e96dcd
+[07:02:05] [Server thread/INFO]: Sebi_cum joined the game
+[07:02:05] [Server thread/INFO]: Sebi_cum[/127.215.165.15:50897] logged in with entity id 14696 at ([world]-24.254783435590497, 120.1707870772188, 23.30807165233483)
+[07:02:11] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ahora si
+[07:02:13] [Async Chat Thread - #13/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Miren
+[07:02:19] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:02:23] [Async Chat Thread - #14/INFO]: [Not Secure] .Margareth5764 » : tienes un poco de hierro?
+[07:02:28] [Async Chat Thread - #14/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Te ibas a morir?
+[07:02:37] [Async Chat Thread - #14/INFO]: [Not Secure] .Margareth5764 » : para unas tijeras
+[07:02:37] [Async Chat Thread - #14/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Weno mira
+[07:02:57] [Async Chat Thread - #14/INFO]: [Not Secure] .Margareth5764 » : graciasss
+[07:03:05] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[07:03:07] [Server thread/INFO]: Sebi_cum issued server command: //set netherite_block
+[07:03:28] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:03:31] [Async Chat Thread - #14/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Usa el que te di
+[07:03:45] [Server thread/INFO]: Sebi_cum issued server command: /invsee .Alsito2476
+[07:04:04] [Server thread/INFO]: Sebi_cum issued server command: /invsee .Alsito2476
+[07:04:15] [Server thread/INFO]: Sebi_cum issued server command: /invsee .Alsito2476
+[07:04:26] [Server thread/INFO]: .Alsito2476 issued server command: /inv .ch
+[07:04:42] [Server thread/INFO]: Sebi_cum issued server command: //set rose_bush
+[07:04:47] [Server thread/INFO]: Sebi_cum issued server command: //set rose_bush
+[07:04:49] [Server thread/INFO]: Sebi_cum issued server command: //set rose_bush
+[07:04:54] [Server thread/INFO]: Sebi_cum issued server command: //set rose_bush
+[07:05:01] [Async Chat Thread - #15/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Una flor para un angel
+[07:05:20] [Async Chat Thread - #15/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Una sola no alcanza para uno tan especial
+[07:05:39] [Async Chat Thread - #15/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Vamos a borrar un chunk
+[07:05:52] [Async Chat Thread - #16/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Así de chill
+[07:06:17] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[07:06:20] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:06:37] [Server thread/INFO]: .Alsito2476 issued server command: /tp seb
+[07:06:50] [Async Chat Thread - #16/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Esta cosa si sirve?
+[07:07:05] [Server thread/INFO]: .Alsito2476 issued server command: /tp seb
+[07:07:18] [Async Chat Thread - #16/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Esa cosa
+[07:07:21] [Async Chat Thread - #16/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Que hace
+[07:07:49] [Server thread/INFO]: Sebi_cum issued server command: //chunk
+[07:08:55] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:09:10] [Server thread/INFO]: Sebi_cum issued server command: //expand vert
+[07:09:14] [Server thread/INFO]: Sebi_cum issued server command: //cut
+[07:09:24] [Server thread/INFO]: .Chettoxs slept. Everyone, good night!
+[07:09:24] [Server thread/INFO]: Sebi_cum fell out of the world
+[07:09:27] [Server thread/INFO]: Good morning everyone!
+[07:09:28] [Server thread/INFO]: [Server: Saving the game...]
+[07:09:28] [Server thread/INFO]: Saving the game (this may take a moment!)
+[07:09:28] [Server thread/INFO]: Saved the game
+[07:09:29] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:09:31] [Async Chat Thread - #17/INFO]: [Not Secure] .AALPHiZ99 » : no gracias
+[07:09:32] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:09:53] [Async Chat Thread - #17/INFO]: [Not Secure] .AALPHiZ99 » : ya voy
+[07:09:56] [Async Chat Thread - #17/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:10:03] [Server thread/INFO]: Sebi_cum issued server command: /tp .Chettoxs Sebi_cum
+[07:10:06] [Server thread/INFO]: Sebi_cum issued server command: /tp .Chettoxs Sebi_cum
+[07:10:08] [Server thread/INFO]: Sebi_cum issued server command: /tp .Chettoxs Sebi_cum
+[07:10:11] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:10:30] [Async Chat Thread - #17/INFO]: [Not Secure] .Margareth5764 » : chetto preguntita, que era lo que me distes?
+[07:10:34] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[07:10:37] [Server thread/INFO]: Sebi_cum fell out of the world
+[07:10:37] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[07:10:43] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum.
+[07:10:45] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:10:46] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:10:46] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:10:50] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:11:50] [Async Chat Thread - #19/INFO]: [Not Secure] .Margareth5764 » : ohh vale vale, graciass
+[07:12:20] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[07:12:20] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:12:43] [Server thread/INFO]: .Chettoxs issued server command: /sit
+[07:12:46] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:12:57] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Este palito detona rico
+[07:13:13] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ademas que les baja un qlo a la armadura
+[07:13:39] [Server thread/INFO]: Sebi_cum issued server command: /spin
+[07:13:41] [Server thread/INFO]: Sebi_cum issued server command: /spin
+[07:13:43] [Server thread/INFO]: Sebi_cum issued server command: /spin
+[07:13:44] [Server thread/INFO]: Sebi_cum issued server command: /spin
+[07:13:47] [Server thread/INFO]: Sebi_cum issued server command: /sit
+[07:13:50] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : oli
+[07:13:54] [Server thread/INFO]: .Alsito2476 issued server command: /sit
+[07:13:55] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Con /sit
+[07:14:06] [Server thread/INFO]: .Alsito2476 issued server command: /sit
+[07:14:15] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Con /sit
+[07:14:18] [Server thread/INFO]: Sebi_cum issued server command: /sit
+[07:14:37] [Server thread/INFO]: .Margareth5764 has completed the challenge [Cover Me in Debris]
+[07:14:42] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Queloco
+[07:15:20] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:15:40] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : xd
+[07:15:42] [Async Chat Thread - #19/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:16:43] [Server thread/INFO]: .Alsito2476 has made the advancement [Who is Cutting Onions?]
+[07:16:50] [Async Chat Thread - #21/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:17:08] [Async Chat Thread - #21/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Vamos a rellenar el chunk
+[07:17:11] [Server thread/INFO]: .AALPHiZ99 drowned
+[07:17:38] [Server thread/INFO]: Sebi_cum issued server command: //expand vert
+[07:18:04] [Server thread/INFO]: Sebi_cum issued server command: //set glass
+[07:18:21] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Mira mira
+[07:18:37] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Se ve bonito
+[07:18:47] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pero mas bonito estas tu
+[07:19:10] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:19:20] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Tengo el comando copiado
+[07:19:22] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : ugu
+[07:19:32] [Server thread/INFO]: [.Alsito2476: Set own game mode to Creative Mode]
+[07:19:34] [Server thread/INFO]: [.Alsito2476: Set own game mode to Survival Mode]
+[07:19:37] [Async Chat Thread - #23/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:19:38] [Server thread/INFO]: [.Alsito2476: Set own game mode to Creative Mode]
+[07:19:45] [Async Chat Thread - #23/INFO]: [Not Secure] .AALPHiZ99 » : holaa chetto
+[07:19:51] [Server thread/INFO]: .Chettoxs slept. Everyone, good night!
+[07:19:51] [Server thread/INFO]: Sebi_cum issued server command: //set water
+[07:19:54] [Server thread/INFO]: Good morning everyone!
+[07:19:55] [Server thread/INFO]: [Server: Saving the game...]
+[07:19:55] [Server thread/INFO]: Saving the game (this may take a moment!)
+[07:19:55] [Server thread/INFO]: Saved the game
+[07:19:57] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : awita
+[07:20:03] [Server thread/INFO]: Sebi_cum issued server command: //cut
+[07:20:11] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : uy
+[07:20:19] [Server thread/INFO]: Sebi_cum issued server command: //set glass
+[07:20:26] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : NO SE QUITA
+[07:20:28] [Server thread/INFO]: .Alsito2476 issued server command: /gamemode s
+[07:20:49] [Server thread/INFO]: Sebi_cum issued server command: //expand vert
+[07:20:52] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:20:59] [Server thread/INFO]: Sebi_cum issued server command: //replace water air
+[07:21:02] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ya
+[07:21:11] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:21:16] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : NOOOOOOOO
+[07:21:32] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:22:02] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : yia
+[07:22:15] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : JAJAJAAJAJAJJAAJ
+[07:22:20] [Async Chat Thread - #24/INFO]: [Not Secure] .AALPHiZ99 » : Aaron asme /kill
+[07:22:27] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:22:27] [Server thread/INFO]: Sebi_cum issued server command: /heal .AALPHiZ99
+[07:22:29] [Server thread/INFO]: .Alsito2476 issued server command: /kill @s
+[07:22:36] [Server thread/INFO]: Sebi_cum issued server command: /heal .Alsito2476
+[07:22:50] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : como tu
+[07:22:53] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Es el limite
+[07:23:06] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] AALPHiZ99 has disconnected from the Java server because of Bedrock client timed out
+[07:23:06] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .AALPHiZ99 disconnected
+[07:23:06] [Server thread/INFO]: .AALPHiZ99 lost connection: Disconnected
+[07:23:06] [Server thread/INFO]: .AALPHiZ99 left the game
+[07:23:26] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:23:30] [Async Chat Thread - #24/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:23:41] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:23:50] [Server thread/INFO]: Sebi_cum issued server command: //set glass
+[07:23:53] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:24:23] [Server thread/INFO]: .Alsito2476 experienced kinetic energy
+[07:24:33] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : D
+[07:24:34] [Server thread/WARN]: .Alsito2476 moved wrongly!
+[07:24:34] [Server thread/WARN]: .Alsito2476 moved wrongly!
+[07:24:35] [Server thread/WARN]: .Alsito2476 moved wrongly!
+[07:24:37] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : DX
+[07:24:41] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username AALPHiZ99 (898)
+[07:24:41] [localSession-7-3/INFO]: [Geyser-Spigot] AALPHiZ99 (logged in as: AALPHiZ99) has connected to the Java server
+[07:24:42] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AALPHiZ99 joined (UUID: 00000000-0000-0000-0009-01f55a7f62fa)
+[07:24:42] [Server thread/INFO]: .AALPHiZ99 joined the game
+[07:24:42] [Server thread/INFO]: .AALPHiZ99[/127.167.61.167:0] logged in with entity id 20584 at ([world]104.660355, 62.0, 73.97293)
+[07:24:42] [Craft Scheduler Thread - 54 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .AALPHiZ99. Please ensure that your license key and configuration are correct.
+[07:25:04] [Server thread/INFO]: .Alsito2476 was doomed to fall
+[07:25:23] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:25:34] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Oli
+[07:25:39] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Que cosa
+[07:25:45] [Server thread/INFO]: Sebi_cum was doomed to fall by .Alsito2476
+[07:25:51] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:26:02] [Async Chat Thread - #25/INFO]: [Not Secure] .Margareth5764 » : durisimo
+[07:26:06] [Server thread/INFO]: Sebi_cum fell from a high place
+[07:26:09] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:26:17] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : ugu
+[07:26:41] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : En realidad es el comando
+[07:26:55] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Un tap es pos1 y mantener es pos2
+[07:27:05] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Con // pones algo
+[07:27:15] [Server thread/INFO]: .Alsito2476 issued server command: //glass
+[07:27:18] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ya sea //set glass
+[07:27:28] [Server thread/INFO]: .Alsito2476 issued server command: //setglass
+[07:27:32] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : O //expand vert para que llegue al limite
+[07:27:37] [Server thread/INFO]: .Alsito2476 issued server command: //set glass
+[07:27:51] [Async Chat Thread - #25/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ey aprendiste
+[07:27:58] [Server thread/INFO]: .Alsito2476 issued server command: //set glass
+[07:28:14] [Server thread/INFO]: .Alsito2476 issued server command: /set glass
+[07:28:36] [Server thread/INFO]: .Alsito2476 issued server command: //set glass
+[07:28:46] [Server thread/INFO]: .Alsito2476 issued server command: /set diamond
+[07:28:52] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : pat pat
+[07:28:58] [Server thread/INFO]: .Alsito2476 issued server command: //set diamond
+[07:29:22] [Server thread/INFO]: .Alsito2476 issued server command: //set iron
+[07:29:33] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pq me pegas
+[07:30:07] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:30:34] [Server thread/INFO]: Sebi_cum issued server command: //expand vert
+[07:30:37] [Server thread/INFO]: Sebi_cum issued server command: //cut
+[07:30:40] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:30:42] [Server thread/INFO]: Sebi_cum issued server command: //undo
+[07:30:55] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Perdon
+[07:31:00] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Yo a ti te amo
+[07:31:14] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Estan gastadas?
+[07:31:57] [Server thread/INFO]: .Chettoxs issued server command: /gamemode 1
+[07:32:05] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Oli
+[07:32:12] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:32:16] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : a
+[07:32:19] [Server thread/INFO]: .Chettoxs issued server command: /gamemode 0
+[07:32:57] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:32:59] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : XD
+[07:33:17] [Async Chat Thread - #27/INFO]: [Not Secure] .AALPHiZ99 » : q van hacer mañana tilines
+[07:33:24] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : OOOOOOOOOOOOOOOOOH
+[07:33:26] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : WATER DROP
+[07:33:36] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Me salio
+[07:33:42] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:34:09] [Server thread/INFO]: Sebi_cum issued server command: /give .Alsito2476 water_bucket 1
+[07:34:12] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Listo
+[07:34:25] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Me rompes el corazon
+[07:34:38] [Async Chat Thread - #27/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : No se si es alago o insulto
+[07:35:15] [Server thread/INFO]: Sebi_cum issued server command: /invsee .Alsito2476
+[07:35:20] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Margareth5764 has disconnected from the Java server because of Bedrock client disconnected
+[07:35:20] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 disconnected
+[07:35:20] [Server thread/INFO]: .Margareth5764 lost connection: Disconnected
+[07:35:20] [Server thread/INFO]: .Margareth5764 left the game
+[07:35:45] [Server thread/INFO]: .AALPHiZ99 was slain by Spider
+[07:36:05] [Async Chat Thread - #29/INFO]: [Not Secure] .AALPHiZ99 » : hagan de dia
+[07:36:12] [Server thread/INFO]: .AALPHiZ99 slept. Everyone, good night!
+[07:36:15] [Server thread/INFO]: Good morning everyone!
+[07:36:15] [Server thread/INFO]: [Server: Saving the game...]
+[07:36:15] [Server thread/INFO]: Saving the game (this may take a moment!)
+[07:36:16] [Server thread/INFO]: Saved the game
+[07:36:17] [Server thread/INFO]: .Chettoxs issued server command: /time set sunrise
+[07:36:22] [Server thread/INFO]: Sebi_cum issued server command: /time set sunrise
+[07:37:20] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:37:23] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:37:38] [Server thread/INFO]: Sebi_cum issued server command: /give .Alsito2476 water_bucket 1
+[07:37:42] [Async Chat Thread - #31/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Listo
+[07:38:08] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:38:23] [Server thread/INFO]: Sebi_cum issued server command: /tp .Chettoxs .Alsito2476
+[07:38:34] [Server thread/INFO]: Sebi_cum fell from a high place
+[07:38:38] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:38:39] [Async Chat Thread - #31/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : memori
+[07:38:54] [Async Chat Thread - #31/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Me dio penita hacer water drop
+[07:39:09] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:39:26] [Server thread/INFO]: Sebi_cum issued server command: /give Sebi_cum water_bucket 1
+[07:39:44] [Server thread/INFO]: .Chettoxs fell from a high place
+[07:39:46] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:39:51] [Async Chat Thread - #31/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : JAJAAAJAJAJ
+[07:40:03] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:08] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:10] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:11] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:12] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:12] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:13] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:40:13] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:18] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:23] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:24] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:25] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:26] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:27] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:40:37] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:40:39] [Server thread/INFO]: Sebi_cum fell from a high place
+[07:41:28] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476
+[07:41:31] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:41:37] [Async Chat Thread - #33/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : a
+[07:41:49] [Async Chat Thread - #33/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Perdon
+[07:43:14] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:43:15] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:43:22] [Server thread/INFO]: .AALPHiZ99 fell from a high place
+[07:44:11] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:44:15] [Server thread/INFO]: Sebi_cum issued server command: /tp .Alsito2476 Sebi_cum
+[07:44:37] [Server thread/INFO]: .Chettoxs issued server command: /gamemode 1
+[07:44:46] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Yo tengo cobre
+[07:44:57] [Server thread/INFO]: .Chettoxs issued server command: /gamemode 0
+[07:45:45] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Chetto
+[07:45:51] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Verdad o reto
+[07:46:01] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Es verdad que tu te aguantas esta?
+[07:46:06] [Server thread/INFO]: .Alsito2476 fell from a high place
+[07:46:12] [Server thread/INFO]: .Chettoxs was slain by Sebi_cum using [Palo de 47 cm]
+[07:46:41] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[07:46:46] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : chi
+[07:47:17] [Server thread/INFO]: Sebi_cum was slain by .Alsito2476 using [Palo de 47 cm]
+[07:47:30] [Async Chat Thread - #35/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : ugu
+[07:47:34] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Alsito2476 disconnected
+[07:47:34] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Alsito2476 has disconnected from the Java server because of Bedrock client disconnected
+[07:47:34] [Server thread/INFO]: .Alsito2476 lost connection: Disconnected
+[07:47:34] [Server thread/INFO]: .Alsito2476 left the game
+[07:49:13] [Server thread/INFO]: .AALPHiZ99 was burned to a crisp while fighting .Chettoxs
+[07:49:28] [Server thread/INFO]: Sebi_cum issued server command: /FLY
+[07:49:32] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[07:49:42] [Server thread/INFO]: Sebi_cum issued server command: /speed 50
+[07:50:00] [Server thread/INFO]: Sebi_cum issued server command: /tp .Chettoxs
+[07:50:05] [Async Chat Thread - #37/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Soy
+[07:50:10] [Async Chat Thread - #37/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : El rayo macuin
+[07:50:13] [Async Chat Thread - #37/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : fiuuuuuuuuuum
+[07:55:33] [Async Chat Thread - #39/INFO]: [Not Secure] .AALPHiZ99 » : toma
+[07:55:37] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Chetto
+[07:55:53] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Te recomiendo, aunque igualmente se apaga solo a la media hora
+[07:55:56] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Pero por si puedes
+[07:55:58] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : uwu
+[07:56:00] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Bay
+[07:56:03] [Async Chat Thread - #39/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : El /stop
+[07:56:10] [Server thread/INFO]: Sebi_cum issued server command: /kick Sebi_cum
+[07:56:10] [Server thread/INFO]: Sebi_cum lost connection: Kicked from server.
+[07:56:10] [Server thread/INFO]: Sebi_cum left the game
+[07:56:10] [Server thread/INFO]: [Essentials] Player OWNER | 🌸 ~JuanSebi  kicked Sebi_cum for Kicked from server..
+[07:56:39] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Margareth5764 (898)
+[07:56:39] [localSession-7-4/INFO]: [Geyser-Spigot] Margareth5764 (logged in as: Margareth5764) has connected to the Java server
+[07:56:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Margareth5764 joined (UUID: 00000000-0000-0000-0009-01f5a7dc2f91)
+[07:56:40] [Server thread/INFO]: .Margareth5764 joined the game
+[07:56:40] [Server thread/INFO]: .Margareth5764[/127.106.6.238:0] logged in with entity id 29010 at ([world]-16.009327, 112.0, 30.67201)
+[07:56:40] [Craft Scheduler Thread - 60 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .Margareth5764. Please ensure that your license key and configuration are correct.
+[07:56:58] [Async Chat Thread - #39/INFO]: [Not Secure] .AALPHiZ99 » : mar ven
+[07:57:18] [Async Chat Thread - #39/INFO]: [Not Secure] .Margareth5764 » : oliss, pasaron cosas ksjs
+[07:57:21] [Async Chat Thread - #39/INFO]: [Not Secure] .Margareth5764 » : voy
+[07:57:54] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username KilluRem001 (898)
+[07:57:54] [localSession-7-1/INFO]: [Geyser-Spigot] KilluRem001 (logged in as: KilluRem001) has connected to the Java server
+[07:57:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as .KilluRem001 joined (UUID: 00000000-0000-0000-0009-01f7d948d513)
+[07:57:54] [Server thread/INFO]: .KilluRem001 joined the game
+[07:57:54] [Server thread/INFO]: .KilluRem001[/127.167.61.167:0] logged in with entity id 29216 at ([world]10.098522, 119.0, 44.23506)
+[07:57:54] [Craft Scheduler Thread - 63 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .KilluRem001. Please ensure that your license key and configuration are correct.
+[07:58:11] [Async Chat Thread - #39/INFO]: [Not Secure] .AALPHiZ99 » : siiiuu
+[07:59:19] [Async Chat Thread - #42/INFO]: [Not Secure] .KilluRem001 » : holaas
+[07:59:26] [Async Chat Thread - #42/INFO]: [Not Secure] CO-OWNER | 🦝 Chetto 🦝 .Chettoxs : holaaa
+[08:00:19] [Async Chat Thread - #42/INFO]: [Not Secure] .KilluRem001 » : Fuck quien hiso esas Cruses
+[08:00:23] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username HyuJPs (898)
+[08:00:23] [localSession-7-2/INFO]: [Geyser-Spigot] HyuJPs (logged in as: HyuJPs) has connected to the Java server
+[08:00:23] [Server thread/INFO]: [floodgate] Floodgate player logged in as .HyuJPs joined (UUID: 00000000-0000-0000-0009-01f4468d56d1)
+[08:00:23] [Server thread/INFO]: .HyuJPs joined the game
+[08:00:23] [Server thread/INFO]: .HyuJPs[/127.93.234.142:0] logged in with entity id 29752 at ([world]7.5, 119.0, 47.5)
+[08:00:23] [Craft Scheduler Thread - 66 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .HyuJPs. Please ensure that your license key and configuration are correct.
+[08:00:23] [Server thread/INFO]: .HyuJPs has made the advancement [Getting an Upgrade]
+[08:00:35] [Async Chat Thread - #42/INFO]: [Not Secure] .Margareth5764 » : hyuuu
+[08:01:10] [Async Chat Thread - #42/INFO]: [Not Secure] .HyuJPs » : hola ksdnajsv
+[08:01:13] [Server thread/INFO]: .KilluRem001 issued server command: /home
+[08:01:13] [Server thread/INFO]: [Essentials] .KilluRem001 was denied access to command.
+[08:01:21] [Server thread/INFO]: .KilluRem001 fell from a high place
+[08:01:22] [Async Chat Thread - #42/INFO]: [Not Secure] .HyuJPs » : esto es raro, nunca he jugado bedrock

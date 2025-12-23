@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.106.6.238
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766475320389
+  login: 1766476600237
+money: '0'
+last-account-name: .Margareth5764
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: -16.009327
+  y: 112.0
+  z: 30.67201
+  yaw: 81.19467163085938
+  pitch: 17.641815185546875

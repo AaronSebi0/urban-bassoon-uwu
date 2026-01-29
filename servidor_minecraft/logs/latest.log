@@ -1,0 +1,411 @@
+[00:40:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[00:40:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) for Minecraft 1.21.11
+[00:40:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:40:03] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 5685ms.
+[00:40:09] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/singleplayersleep-1.1.0.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.7.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/singleplayersleep-1.1.0.jar' in 184ms.
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.15-beta-01.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 244ms.
+[00:40:09] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.7.jar' in 418ms.
+[00:40:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GSit-3.1.0.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.15-beta-01.jar' in 406ms.
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/BedrockPlayerManager-1.4.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BedrockPlayerManager-1.4.jar' in 92ms.
+[00:40:09] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/LPC-Minimessage.jar'...
+[00:40:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GSit-3.1.0.jar' in 368ms.
+[00:40:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.17.jar'...
+[00:40:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LPC-Minimessage.jar' in 469ms.
+[00:40:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/ClearLag 1.6.17 VER 1.18-1.21.jar'...
+[00:40:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ClearLag 1.6.17 VER 1.18-1.21.jar' in 163ms.
+[00:40:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.4.0.jar'...
+[00:40:11] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2049ms.
+[00:40:11] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
+[00:40:11] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.4.0.jar' in 1355ms.
+[00:40:11] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/coloredsigns-1.0.jar'...
+[00:40:11] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/coloredsigns-1.0.jar' in 72ms.
+[00:40:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.17.jar' in 2233ms.
+[00:40:13] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 2398ms.
+[00:40:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[00:40:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (21):
+ - BedrockPlayerManager (1.4), ClearLag (1.6.17), Essentials (2.21.2), EssentialsChat (2.21.2), EssentialsGeoIP (2.21.2), EssentialsProtect (2.21.2), EssentialsSpawn (2.21.2), GSit (3.1.0), Geyser-Spigot (2.9.2-SNAPSHOT), LPC (3.6.9), LuckPerms (5.5.21), PlaceholderAPI (2.11.7), SinglePlayerSleep (1.1.0), SkinsRestorer (15.9.2), TAB (5.4.0), Vault (1.7.3-b131), ViaVersion (5.6.0), WorldEdit (7.3.17+7262-c7fbe08), WorldGuard (7.0.15-beta-01+445a1d7), coloredsigns (1.0), floodgate (2.2.5-SNAPSHOT (b123-65eecbf))
+[00:40:18] [ServerMain/WARN]: resource-pack-id missing, using default of 737ca808-79e2-35ba-b4d4-548b3d191c38
+[00:40:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:40:21] [ServerMain/INFO]: Loaded 1470 recipes
+[00:40:21] [ServerMain/INFO]: Loaded 1584 advancements
+[00:40:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:40:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 421.7ms
+[00:40:21] [ServerMain/WARN]: resource-pack-id missing, using default of 737ca808-79e2-35ba-b4d4-548b3d191c38
+[00:40:21] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[00:40:21] [Server thread/INFO]: Loading properties
+[00:40:22] [Server thread/INFO]: This server is running Paper version 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[00:40:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:40:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:40:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:40:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:40:23] [Server thread/INFO]: Default game type: SURVIVAL
+[00:40:23] [Server thread/INFO]: Generating keypair
+[00:40:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:40:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:40:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:40:24] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 1 libraries... please wait
+[00:40:24] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library /workspaces/urban-bassoon-uwu/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[00:40:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.6.0
+[00:40:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.6.0 is now loaded. Registering protocol transformers and injecting...
+[00:40:25] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:40:25] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:40:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.21
+[00:40:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:40:26] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:40:26] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[00:40:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4db4558]
+[00:40:26] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b123-65eecbf)
+[00:40:27] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:40:27] [Server thread/INFO]: [floodgate] Took 699ms to boot Floodgate
+[00:40:27] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[00:40:27] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15-beta-01+445a1d7
+[00:40:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[00:40:27] [Server thread/INFO]: [SinglePlayerSleep] Loading server plugin SinglePlayerSleep v1.1.0
+[00:40:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.2
+[00:40:27] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.1.0
+[00:40:27] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.21.2
+[00:40:27] [Server thread/INFO]: [BedrockPlayerManager] Loading server plugin BedrockPlayerManager v1.4
+[00:40:27] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.9
+[00:40:27] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[00:40:27] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.21.2
+[00:40:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[00:40:28] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:40:28] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:40:28] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.6.17
+[00:40:28] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[00:40:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[00:40:28] [Server thread/INFO]: [coloredsigns] Loading server plugin coloredsigns v1.0
+[00:40:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:40:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.21
+[00:40:28] [Server thread/INFO]:         __    
+[00:40:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.21
+[00:40:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:40:28] [Server thread/INFO]: 
+[00:40:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:40:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:40:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:40:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1662ms)
+[00:40:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:40:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:40:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:40:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:40:29] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:40:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[00:40:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:40:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:40:30] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[00:40:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.2
+[00:40:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[00:40:31] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[00:40:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:40:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.2]
+[00:40:32] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[00:40:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:40:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:40:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:40:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:40:32] [Server thread/INFO]: Preparing level "world"
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.2
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 823b90a
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.9.3) is available! Downloading update...
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[00:40:32] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[00:40:32] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 228ms
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[00:40:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[00:40:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[00:40:32] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:40:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[00:40:32] [Server thread/INFO]: Prepared spawn area in 0 ms
+[00:40:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[00:40:32] [Server thread/INFO]: Prepared spawn area in 5 ms
+[00:40:32] [Server thread/INFO]: Done preparing level "world" (0.506s)
+[00:40:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.6.0
+[00:40:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[00:40:32] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[00:40:32] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
+[00:40:32] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
+[00:40:32] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
+[00:40:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b123-65eecbf)
+[00:40:33] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[00:40:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:40:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15-beta-01+445a1d7
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:40:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:40:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:40:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[00:40:33] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:40:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:40:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:40:34] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[00:40:34] [Server thread/INFO]: [Essentials] Using locale en
+[00:40:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:40:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:40:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:40:34] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:40:34] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.1.0
+[00:40:34] [Server thread/INFO]: [SinglePlayerSleep] SinglePlayerSleep v1.1.0 has been enabled!
+[00:40:34] [Server thread/INFO]: [GSit] Enabling GSit v3.1.0
+[00:40:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.1.0]
+[00:40:34] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[00:40:34] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[00:40:34] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[00:40:34] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[00:40:34] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.21.2
+[00:40:34] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[00:40:34] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[00:40:34] [Server thread/INFO]: [BedrockPlayerManager] Enabling BedrockPlayerManager v1.4
+[00:40:34] [Server thread/INFO]: [LPC] Enabling LPC v3.6.9
+[00:40:34] [Server thread/INFO]: [LPC] Paper API has been detected and will be used.
+[00:40:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[00:40:34] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[00:40:34] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.21.2
+[00:40:34] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
+[00:40:34] [Server thread/ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
+java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356) ~[?:?]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273) ~[?:?]
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.libs.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.libs.maxmind.db.Reader.<init>(Reader.java:116) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:176) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:52) ~[?:?]
+	at EssentialsXGeoIP-2.21.2.jar//com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:34) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[00:40:34] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[00:40:34] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[00:40:34] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[00:40:35] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.6.17
+[00:40:35] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
+[00:40:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlag [1.6.17]
+[00:40:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[00:40:35] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:40:35] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "_NEZNAMY_" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "237d8b55-3f97-4749-aa60-e9fe97b45062" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "JuanSebi" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "Angel" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "Chetto" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "Ako_lol" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "nachitomly" defined for user "". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix]
+[00:40:36] [Server thread/INFO]: [TAB] [WARN] Found a total of 8 issues.
+[00:40:36] [Server thread/INFO]: [TAB] Enabled in 242ms
+[00:40:36] [Server thread/INFO]: [coloredsigns] Enabling coloredsigns v1.0
+[00:40:36] [Server thread/INFO]: [coloredsigns] ColoredSigns enabled!
+[00:40:36] [Server thread/INFO]: [spark] Starting background profiler...
+[00:40:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:40:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:40:36] [Server thread/INFO]: [Geyser-Spigot] 
+[00:40:36] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1009 (git-master-5d46e76)
+[00:40:36] [Server thread/INFO]: [Geyser-Spigot] 
+[00:40:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:40:40] [Server thread/WARN]: [Geyser-Spigot] The resource pack plugins/Geyser-Spigot/packs/Modern Mizuno's v0.4.2.zip is invalid and failed to load!
+[00:40:40] [Server thread/WARN]: java.lang.IllegalArgumentException: The resource pack Modern Mizuno's v0.4.2.zip is invalid and failed to load!
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readManifest(ResourcePackLoader.java:223)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readPack(ResourcePackLoader.java:161)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.load(ResourcePackLoader.java:131)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.load(ResourcePackLoader.java:75)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.DeferredRegistry.lambda$new$2(DeferredRegistry.java:64)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.DeferredRegistry.load(DeferredRegistry.java:115)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.AbstractMappedDeferredRegistry.load(AbstractMappedDeferredRegistry.java:36)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.startInstance(GeyserImpl.java:319)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.initialize(GeyserImpl.java:281)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.GeyserImpl.start(GeyserImpl.java:897)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:235)
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:219)
+[00:40:40] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[00:40:40] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[00:40:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[00:40:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[00:40:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[00:40:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:644)
+[00:40:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+[00:40:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+[00:40:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[00:40:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:40:40] [Server thread/WARN]: Caused by: java.lang.IllegalArgumentException: Modern Mizuno's v0.4.2.zip does not contain a valid pack_manifest.json or manifest.json
+[00:40:40] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.registry.loader.ResourcePackLoader.readManifest(ResourcePackLoader.java:218)
+[00:40:40] [Server thread/WARN]: 	... 21 more
+[00:40:40] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 12901
+[00:40:40] [Server thread/INFO]: [Geyser-Spigot] Done (3.686s)! Run /geyser help for help!
+[00:40:40] [Server thread/INFO]: Running delayed init tasks
+[00:40:40] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:40:40] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:40:40] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:40:40] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:40:40] [Craft Scheduler Thread - 0 - SinglePlayerSleep/INFO]: [SinglePlayerSleep] Plugin is up to date! (v1.1.0)
+[00:40:40] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.1, you're on: 5.6.0
+[00:40:40] [Server thread/INFO]: Done (38.853s)! For help, type "help"
+[00:40:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[00:40:40] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[00:40:40] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: ========================================
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: ClearLag is outdated!
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: Your version: 1.6.17
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: Newest version: 1.6.22
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: Download the new version here: https://modrinth.com/plugin/7bhTp28M
+[00:40:40] [Craft Scheduler Thread - 4 - ClearLag/INFO]: ========================================
+[00:45:24] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username BATTOUSAI17T (898)
+[00:45:24] [localSession-7-2/INFO]: [Geyser-Spigot] BATTOUSAI17T (logged in as: BATTOUSAI17T) has connected to the Java server
+[00:45:24] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials, WorldGuard]
+[00:45:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BATTOUSAI17T joined (UUID: 00000000-0000-0000-0009-01fe8a2a0d83)
+[00:45:26] [Server thread/INFO]: .BATTOUSAI17T joined the game
+[00:45:26] [Server thread/INFO]: .BATTOUSAI17T[/127.231.21.153:0] logged in with entity id 1 at ([world]14.5, 119.0, 40.5)
+[00:45:26] [Craft Scheduler Thread - 9 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .BATTOUSAI17T. Please ensure that your license key and configuration are correct.
+[00:45:26] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Getting an Upgrade]
+[00:46:03] [Server thread/INFO]: [Not Secure] [Server] Dame 5 para entrar, me toca volver a instalar Minecraft xd
+[00:46:20] [Async Chat Thread - #1/INFO]: [Not Secure] .BATTOUSAI17T » : ok
+[00:46:48] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Monster Hunter]
+[00:47:40] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] BATTOUSAI17T has disconnected from the Java server because of Bedrock client disconnected
+[00:47:40] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .BATTOUSAI17T disconnected
+[00:47:40] [Server thread/INFO]: .BATTOUSAI17T lost connection: Disconnected
+[00:47:40] [Server thread/INFO]: .BATTOUSAI17T left the game
+[00:48:13] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username BATTOUSAI17T (898)
+[00:48:13] [localSession-7-3/INFO]: [Geyser-Spigot] BATTOUSAI17T (logged in as: BATTOUSAI17T) has connected to the Java server
+[00:48:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .BATTOUSAI17T joined (UUID: 00000000-0000-0000-0009-01fe8a2a0d83)
+[00:48:13] [Server thread/INFO]: .BATTOUSAI17T joined the game
+[00:48:13] [Server thread/INFO]: .BATTOUSAI17T[/127.231.21.153:0] logged in with entity id 618 at ([world]74.80252, 126.0, 59.708736)
+[00:48:13] [Craft Scheduler Thread - 13 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for .BATTOUSAI17T. Please ensure that your license key and configuration are correct.
+[00:49:46] [Server thread/INFO]: .BATTOUSAI17T was slain by Spider
+[00:50:33] [Server thread/INFO]: .BATTOUSAI17T was slain by Zombie
+[00:51:47] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Acquire Hardware]
+[00:52:16] [Server thread/WARN]: .BATTOUSAI17T moved wrongly!
+[00:52:27] [Server thread/INFO]: .BATTOUSAI17T slept. Everyone, good night!
+[00:52:27] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Sweet Dreams]
+[00:52:31] [Server thread/INFO]: Good morning everyone!
+[00:52:31] [Server thread/INFO]: [Server: Saving the game...]
+[00:52:31] [Server thread/INFO]: Saving the game (this may take a moment!)
+[00:52:31] [Server thread/INFO]: Saved the game
+[00:52:36] [Server thread/WARN]: .BATTOUSAI17T moved wrongly!
+[00:56:48] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Stone Age]
+[00:59:11] [User Authenticator #0/INFO]: UUID of player Sebi_cum is bffe29b4-b281-3a4d-9f36-9ab8a4e96dcd
+[00:59:32] [Server thread/INFO]: Sebi_cum joined the game
+[00:59:32] [Server thread/INFO]: Sebi_cum[/127.179.77.200:42587] logged in with entity id 3259 at ([world]1017.5436870656067, 60.62499949201154, 2362.520496205972)
+[00:59:51] [Server thread/INFO]: Sebi_cum issued server command: /home
+[00:59:58] [Server thread/INFO]: Sebi_cum issued server command: /home bed
+[01:00:03] [Async Chat Thread - #2/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ola
+[01:00:06] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[01:00:08] [Async Chat Thread - #2/INFO]: [Not Secure] .BATTOUSAI17T » : saludos
+[01:03:33] [Server thread/INFO]: .BATTOUSAI17T was shot by Skeleton
+[01:05:32] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Los que tienen hierro y eso es Angel y Chetto
+[01:05:40] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : No se donde wea tienen la granja xd
+[01:05:53] [Server thread/INFO]: Sebi_cum issued server command: /warps
+[01:05:57] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ah ya vi
+[01:05:57] [Async Chat Thread - #4/INFO]: [Not Secure] .BATTOUSAI17T » : quien es chetto?
+[01:06:08] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Un amigo de Discord que tenemos
+[01:06:16] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : El y Angel hicieron la granja
+[01:06:20] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Creo que ya se como llegar
+[01:06:25] [Server thread/INFO]: Sebi_cum issued server command: /warp granja1
+[01:06:38] [Async Chat Thread - #4/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Quieres hierro?
+[01:06:56] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Suit Up]
+[01:07:07] [Server thread/INFO]: Sebi_cum issued server command: /home bed
+[01:07:42] [Server thread/INFO]: .BATTOUSAI17T fell from a high place
+[01:07:46] [Async Chat Thread - #6/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ese we
+[01:07:50] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[01:07:53] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[01:07:54] [Async Chat Thread - #6/INFO]: [Not Secure] .BATTOUSAI17T » : xD
+[01:08:28] [Async Chat Thread - #6/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Toma
+[01:08:34] [Async Chat Thread - #6/INFO]: [Not Secure] .BATTOUSAI17T » : graciasss
+[01:08:36] [Async Chat Thread - #6/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Denadas
+[01:08:40] [Server thread/INFO]: Sebi_cum issued server command: /warp granja2
+[01:08:44] [Server thread/INFO]: Sebi_cum issued server command: /back
+[01:10:10] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [Isn't It Iron Pick]
+[01:11:15] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Ah si
+[01:11:23] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Hector hizo un portal en su cuarto
+[01:11:27] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Por si gustas ir xd
+[01:11:35] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Al end
+[01:11:38] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Curioso
+[01:11:40] [Async Chat Thread - #8/INFO]: [Not Secure] .BATTOUSAI17T » : wow
+[01:11:55] [Async Chat Thread - #8/INFO]: [Not Secure] .BATTOUSAI17T » : y ya le hicieron fin?
+[01:12:01] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : Siu
+[01:12:12] [Async Chat Thread - #8/INFO]: [Not Secure] OWNER | 🌸 ~JuanSebi : La ultima vez estaban buscando elytras
+[01:14:01] [Server thread/INFO]: Sebi_cum issued server command: /sit
+[01:17:44] [Server thread/INFO]: .BATTOUSAI17T has made the advancement [The End?]
+[01:22:09] [Async Chat Thread - #10/INFO]: [Not Secure] .BATTOUSAI17T » : y que hacemos?
+[01:23:22] [Server thread/INFO]: Sebi_cum issued server command: /sit
+[01:23:59] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .BATTOUSAI17T disconnected
+[01:23:59] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] BATTOUSAI17T has disconnected from the Java server because of Bedrock client disconnected
+[01:23:59] [Server thread/INFO]: .BATTOUSAI17T lost connection: Disconnected
+[01:23:59] [Server thread/INFO]: .BATTOUSAI17T left the game
+[01:24:12] [Server thread/INFO]: Sebi_cum issued server command: /fly
+[01:24:26] [Server thread/INFO]: Sebi_cum issued server command: /fly

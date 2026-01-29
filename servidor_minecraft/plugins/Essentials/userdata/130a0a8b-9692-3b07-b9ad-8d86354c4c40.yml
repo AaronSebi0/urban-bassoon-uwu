@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.242.218.206
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766975005051
+  login: 1766974658154
+money: '0'
+last-account-name: nachitomly
+nickname: Nachitomly
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 648.1614127344167
+  y: 65.16610926093821
+  z: -16.502539438008487
+  yaw: 15.911319732666016
+  pitch: 27.299968719482422
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 950.8273860209098
+  y: 62.110764312744145
+  z: 2307.3111441302513
+  yaw: 162.83741760253906
+  pitch: 25.04998779296875

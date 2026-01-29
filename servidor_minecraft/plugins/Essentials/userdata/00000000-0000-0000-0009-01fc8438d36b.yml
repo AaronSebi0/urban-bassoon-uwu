@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.28.204.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766973489452
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766976251159
+  login: 1766976207599
+money: '0'
+last-account-name: .Alsito2476
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 14.004873
+  y: 119.0
+  z: 47.360424
+  yaw: 173.39263916015625
+  pitch: 24.019302368164062
+nickname: Angel
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 973.8168334960938
+  y: 62.52326432091654
+  z: 2456.1953125
+  yaw: -28.797958374023438
+  pitch: 18.440841674804688

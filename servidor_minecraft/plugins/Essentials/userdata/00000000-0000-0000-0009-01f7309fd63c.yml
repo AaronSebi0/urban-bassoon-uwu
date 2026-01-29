@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.204.244.60
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767506008760
+  login: 1767504940373
+money: '0'
+last-account-name: .xintae13
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 16.5
+  y: 119.0
+  z: 41.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 484.54346
+  y: 65.0
+  z: 176.03786
+  yaw: 98.973388671875
+  pitch: 4.381927490234375

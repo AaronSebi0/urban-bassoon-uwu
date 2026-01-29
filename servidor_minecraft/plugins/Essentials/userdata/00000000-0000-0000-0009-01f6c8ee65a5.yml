@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.92.131.184
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766122943190
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766127185742
+  login: 1766121401306
+money: '0'
+last-account-name: .TKPgus
+logoutlocation:
+  world: efe04a1e-2dc5-4757-ac07-b3cf8e8db1cc
+  world-name: world_nether
+  x: -2766.9543
+  y: 61.0
+  z: 3207.6775
+  yaw: -96.220703125
+  pitch: 86.31268310546875
+nickname: TKPgus
+lastlocation:
+  world: efe04a1e-2dc5-4757-ac07-b3cf8e8db1cc
+  world-name: world_nether
+  x: -2731.5623
+  y: 36.0
+  z: 2861.2827
+  yaw: -119.4803466796875
+  pitch: 46.676727294921875

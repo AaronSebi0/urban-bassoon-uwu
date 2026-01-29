@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.98.180.120
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767665929660
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767668487715
+  login: 1767665118700
+money: '0'
+last-account-name: .Chettoxs
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 621.1976
+  y: 58.0
+  z: 513.36884
+  yaw: -102.45745849609375
+  pitch: -6.1022186279296875
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: 23.5
+  y: 112.5625
+  z: 24.5
+  yaw: -90.0
+  pitch: 0.0

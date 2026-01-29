@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.201.218.80
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1766970809037
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1766970983045
+  login: 1766970572909
+money: '0'
+last-account-name: .Dimijhan
+lastlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: -142.45973
+  y: 230.18086
+  z: -147.98529
+  yaw: -57.00799560546875
+  pitch: -4.5953369140625
+logoutlocation:
+  world: b3c4560d-d46f-4339-8a8e-a887e6ab9eae
+  world-name: world
+  x: -123.95573
+  y: 215.0
+  z: -163.07092
+  yaw: 87.63165283203125
+  pitch: 24.197097778320312
